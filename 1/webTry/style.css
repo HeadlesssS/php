@@ -1,0 +1,38 @@
+ /* Bonus Challenge (if you want to spice it up)
+Add a guestbook.txt file and save submissions into it using file_put_contents()
+
+Use PHP to read and show past entries
+
+Add a hit counter using $_SESSION */
+
+
+body {
+    background-color: #f5f5dc;
+    font-family: "Comic Sans MS", cursive, sans-serif;
+    color: #333;
+    text-align: center;
+    margin-top: 50px;
+}
+
+h1 {
+    color: #8b0000;
+}
+
+form {
+    border: 2px dashed #8b0000;
+    padding: 20px;
+    display: inline-block;
+    background-color: #fffaf0;
+}
+
+input, textarea {
+    margin-top: 10px;
+    padding: 5px;
+    border: 1px solid #000;
+}
+
+marquee {
+    font-weight: bold;
+    font-size: 20px;
+    color: #ff4500;
+}

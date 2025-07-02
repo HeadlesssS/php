@@ -1,0 +1,377 @@
+/* Vintage Forms & Data Display CSS - Retro Aesthetic */
+@import url('https://fonts.googleapis.com/css2?family=VT323&family=Courier+Prime:wght@400;700&display=swap');
+
+/* Global Reset and Base Styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Courier Prime', monospace;
+    background: linear-gradient(135deg, #2d1b69 0%, #11998e 100%);
+    color: #f4f1de;
+    line-height: 1.6;
+    min-height: 100vh;
+    padding: 2rem;
+}
+
+/* Background overlay for dynamic images */
+body.with-bg-image {
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    background-blend-mode: overlay;
+}
+
+body.with-bg-image::before {
+    content: '';
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(135deg, rgba(45, 27, 105, 0.8) 0%, rgba(17, 153, 142, 0.8) 100%);
+    z-index: -1;
+    pointer-events: none;
+}
+
+/* Typography */
+h1, h2, h3 {
+    font-family: 'VT323', monospace;
+    color: #f2cc8f;
+    text-shadow: 0 0 10px rgba(242, 204, 143, 0.5);
+    margin-bottom: 1rem;
+}
+
+h1 {
+    font-size: 3rem;
+    text-align: center;
+    animation: glow 2s ease-in-out infinite alternate;
+}
+
+h2 {
+    font-size: 2rem;
+    margin-bottom: 1.5rem;
+}
+
+@keyframes glow {
+    from { text-shadow: 0 0 10px rgba(242, 204, 143, 0.5); }
+    to { text-shadow: 0 0 20px rgba(242, 204, 143, 0.8), 0 0 30px rgba(242, 204, 143, 0.3); }
+}
+
+/* Form Container */
+form {
+    max-width: 500px;
+    margin: 2rem auto;
+    background: rgba(0, 0, 0, 0.3);
+    padding: 2rem;
+    border-radius: 15px;
+    border: 2px solid #e07a5f;
+    backdrop-filter: blur(10px);
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.3);
+}
+
+/* Input Fields */
+input[type="text"], 
+input[type="email"], 
+input[type="password"],
+textarea, 
+select {
+    width: 100%;
+    padding: 0.8rem 1rem;
+    margin: 0.5rem 0 1rem 0;
+    background: rgba(244, 241, 222, 0.1);
+    border: 2px solid #81b29a;
+    border-radius: 8px;
+    color: #f4f1de;
+    font-family: 'Courier Prime', monospace;
+    font-size: 1rem;
+    transition: all 0.3s ease;
+}
+
+input[type="text"]:focus,
+input[type="email"]:focus,
+input[type="password"]:focus,
+textarea:focus,
+select:focus {
+    outline: none;
+    border-color: #f2cc8f;
+    background: rgba(244, 241, 222, 0.15);
+    box-shadow: 0 0 15px rgba(242, 204, 143, 0.3);
+    transform: translateY(-2px);
+}
+
+input::placeholder,
+textarea::placeholder {
+    color: rgba(244, 241, 222, 0.6);
+    font-style: italic;
+}
+
+/* Fieldset and Legend */
+fieldset {
+    border: 2px solid #e07a5f;
+    border-radius: 10px;
+    padding: 1.5rem;
+    margin: 1rem 0;
+    background: rgba(224, 122, 95, 0.1);
+}
+
+legend {
+    font-family: 'VT323', monospace;
+    font-size: 1.5rem;
+    color: #f2cc8f;
+    padding: 0 1rem;
+    background: rgba(0, 0, 0, 0.5);
+    border-radius: 5px;
+}
+
+/* Radio Buttons and Checkboxes */
+input[type="radio"],
+input[type="checkbox"] {
+    width: auto;
+    margin-right: 0.5rem;
+    margin-left: 1rem;
+    accent-color: #f2cc8f;
+    transform: scale(1.2);
+}
+
+input[type="radio"] + label,
+input[type="checkbox"] + label {
+    color: #f4f1de;
+    cursor: pointer;
+    display: inline-block;
+    margin-right: 1rem;
+    transition: color 0.3s ease;
+}
+
+input[type="radio"]:checked + label,
+input[type="checkbox"]:checked + label {
+    color: #f2cc8f;
+    text-shadow: 0 0 5px rgba(242, 204, 143, 0.5);
+}
+
+/* Buttons */
+button,
+input[type="submit"],
+input[type="button"] {
+    background: linear-gradient(45deg, #e07a5f, #f2cc8f);
+    color: #2d1b69;
+    border: none;
+    padding: 1rem 2rem;
+    border-radius: 25px;
+    font-family: 'VT323', monospace;
+    font-size: 1.2rem;
+    font-weight: bold;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    margin: 1rem 0.5rem;
+    box-shadow: 0 5px 15px rgba(224, 122, 95, 0.3);
+}
+
+button:hover,
+input[type="submit"]:hover,
+input[type="button"]:hover {
+    transform: translateY(-3px);
+    box-shadow: 0 8px 25px rgba(224, 122, 95, 0.5);
+    background: linear-gradient(45deg, #f2cc8f, #e07a5f);
+}
+
+button:active,
+input[type="submit"]:active,
+input[type="button"]:active {
+    transform: translateY(-1px);
+}
+
+/* Data Display Container */
+.data-display {
+    max-width: 800px;
+    margin: 2rem auto;
+    background: rgba(0, 0, 0, 0.3);
+    padding: 2rem;
+    border-radius: 15px;
+    border: 2px solid #81b29a;
+    backdrop-filter: blur(10px);
+}
+
+/* Success/Info Messages */
+.message {
+    padding: 1rem;
+    margin: 1rem 0;
+    border-radius: 10px;
+    text-align: center;
+    font-weight: bold;
+}
+
+.message.success {
+    background: rgba(129, 178, 154, 0.2);
+    border: 2px solid #81b29a;
+    color: #81b29a;
+}
+
+.message.info {
+    background: rgba(242, 204, 143, 0.2);
+    border: 2px solid #f2cc8f;
+    color: #f2cc8f;
+}
+
+/* Tables */
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin: 1rem 0;
+    background: rgba(0, 0, 0, 0.2);
+    border-radius: 10px;
+    overflow: hidden;
+}
+
+th, td {
+    padding: 1rem;
+    text-align: left;
+    border-bottom: 1px solid rgba(224, 122, 95, 0.3);
+}
+
+th {
+    background: rgba(224, 122, 95, 0.3);
+    font-family: 'VT323', monospace;
+    font-size: 1.2rem;
+    color: #f2cc8f;
+    text-transform: uppercase;
+}
+
+tr:hover {
+    background: rgba(244, 241, 222, 0.1);
+}
+
+/* Lists */
+ul, ol {
+    margin: 1rem 0;
+    padding-left: 2rem;
+}
+
+li {
+    margin: 0.5rem 0;
+    color: #f4f1de;
+}
+
+/* Links */
+a {
+    color: #f2cc8f;
+    text-decoration: none;
+    transition: all 0.3s ease;
+}
+
+a:hover {
+    color: #e07a5f;
+    text-shadow: 0 0 5px rgba(224, 122, 95, 0.5);
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+    body {
+        padding: 1rem;
+    }
+    
+    form, .data-display {
+        padding: 1rem;
+        margin: 1rem auto;
+    }
+    
+    h1 {
+        font-size: 2rem;
+    }
+    
+    button, input[type="submit"], input[type="button"] {
+        width: 100%;
+        margin: 0.5rem 0;
+    }
+}
+
+/* Vintage TV Effect for Audio Elements */
+audio {
+    display: none;
+}
+
+.audio-indicator {
+    display: inline-block;
+    padding: 0.5rem 1rem;
+    background: rgba(129, 178, 154, 0.2);
+    border: 2px solid #81b29a;
+    border-radius: 20px;
+    color: #81b29a;
+    font-family: 'VT323', monospace;
+    animation: pulse 2s infinite;
+}
+
+@keyframes pulse {
+    0%, 100% { opacity: 1; }
+    50% { opacity: 0.7; }
+}
+
+/* Animated background particles */
+.bg-animation {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    pointer-events: none;
+    z-index: -2;
+}
+
+.particle {
+    position: absolute;
+    width: 4px;
+    height: 4px;
+    background: rgba(244, 241, 222, 0.3);
+    border-radius: 50%;
+    animation: float 6s ease-in-out infinite;
+}
+
+.particle:nth-child(1) { left: 10%; animation-delay: 0s; }
+.particle:nth-child(2) { left: 20%; animation-delay: 1s; }
+.particle:nth-child(3) { left: 30%; animation-delay: 2s; }
+.particle:nth-child(4) { left: 40%; animation-delay: 3s; }
+.particle:nth-child(5) { left: 50%; animation-delay: 4s; }
+.particle:nth-child(6) { left: 60%; animation-delay: 5s; }
+
+@keyframes float {
+    0%, 100% { transform: translateY(100vh) rotate(0deg); opacity: 0; }
+    10%, 90% { opacity: 1; }
+    50% { transform: translateY(-10vh) rotate(180deg); }
+}
+
+/* Vintage decorative elements */
+.vintage-border {
+    border: 3px solid #e07a5f;
+    border-image: linear-gradient(45deg, #e07a5f, #f2cc8f, #81b29a) 1;
+    position: relative;
+}
+
+.vintage-border::before {
+    content: '';
+    position: absolute;
+    top: -6px;
+    left: -6px;
+    right: -6px;
+    bottom: -6px;
+    background: linear-gradient(45deg, #e07a5f, #f2cc8f, #81b29a);
+    z-index: -1;
+    border-radius: inherit;
+}
+
+/* Glitch effect for special elements */
+.glitch {
+    animation: glitch 2s infinite;
+}
+
+@keyframes glitch {
+    0%, 100% { transform: translate(0); }
+    20% { transform: translate(-1px, 1px); }
+    40% { transform: translate(-1px, -1px); }
+    60% { transform: translate(1px, 1px); }
+    80% { transform: translate(1px, -1px); }
+}
