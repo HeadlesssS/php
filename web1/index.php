@@ -10,15 +10,6 @@
     </head>
 
     <body>
-        <!-- Animated background particles -->
-        <div class="bg-animation">
-            <div class="particle"></div>
-            <div class="particle"></div>
-            <div class="particle"></div>
-            <div class="particle"></div>
-            <div class="particle"></div>
-            <div class="particle"></div>
-        </div>
 
         <h1 class="glitch">🎵 Vintage Music Selector 🎵</h1>
 
@@ -29,30 +20,30 @@
             <input type="text"
                    id="name"
                    name="name"
-                   placeholder="Enter your vintage alias..."
+                   placeholder="Enter your alias..."
                    required>
 
             <fieldset>
                 <legend>Choose Your Vibe</legend>
 
-                <div style="margin: 1rem 0;">
+                <div >
                     <input type="radio" id="lofi" name="music" value="lofi" required>
                     <label for="lofi">🎧 Lofi - Chill & Relaxing</label>
                 </div>
 
-                <div style="margin: 1rem 0;">
+                <div >
                     <input type="radio" id="rock" name="music" value="rock">
                     <label for="rock">🎸 Rock - Raw & Energetic</label>
                 </div>
 
-                <div style="margin: 1rem 0;">
+                <div >
                     <input type="radio" id="rnb" name="music" value="r&b">
                     <label for="rnb">🎤 R&B - Smooth & Soulful</label>
                 </div>
             </fieldset>
 
-            <div style="text-align: center;">
-                <button type="submit">Start Your Musical Journey</button>
+            <div >
+                <button type="submit">Lessssssss go</button>
             </div>
         </form>
 

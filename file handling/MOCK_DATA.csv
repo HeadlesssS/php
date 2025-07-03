@@ -1,0 +1,101 @@
+first_name,last_name,age,gender,city,marital_status,employment_status,ethnicity,blood_type,exercise_frequency
+Broderic,Shapera,21,Male,Bull Savanna,Single,Unemployed,Fijian,A+,Yearly
+Lek,Calliss,60,Male,Conduaga,Divorced,Retired,Comanche,AB-,Often
+Freeland,Burgher,19,Male,Chixi,Single,Retired,Taiwanese,AB+,Yearly
+Pacorro,Warrington,84,Bigender,Pedamaran,Single,Unemployed,Malaysian,A+,Monthly
+Eberto,Kegley,29,Male,Puerto Santander,Married,Employed,Latin American Indian,AB-,Monthly
+Jeannie,Matusov,43,Female,Buri,Married,Employed,Chippewa,AB-,Seldom
+Terese,McPhater,40,Female,Kinkala,Single,Retired,Mexican,O-,Seldom
+Lynnette,Mayell,68,Female,Kimry,Married,Retired,Malaysian,O-,Weekly
+Loralee,McCann,41,Bigender,Toba Tek Singh,Married,Retired,Indonesian,O-,Monthly
+Sigismund,Purkis,68,Male,Rowokangkung,Married,Unemployed,Asian,B-,Once
+Engracia,Sparshett,29,Female,Anderstorp,Divorced,Employed,Ecuadorian,B-,Never
+Hallie,Cowles,61,Female,Al ‘Anān,Divorced,Employed,Shoshone,A+,Weekly
+Joey,Muslim,36,Female,Zhangwan,Single,Retired,Peruvian,AB+,Never
+Beaufort,Tumbridge,81,Male,Américo Brasiliense,Divorced,Retired,Houma,O-,Weekly
+Orazio,Lovekin,76,Male,Honglai,Divorced,Unemployed,Native Hawaiian and Other Pacific Islander (NHPI),A+,Yearly
+Bertie,Feyer,64,Male,Nioki,Married,Unemployed,Chilean,B+,Often
+Thayne,Shelbourne,48,Agender,Shchëkino,Divorced,Employed,Chilean,AB-,Seldom
+Shelley,Denington,81,Male,Zaindainxoi,Married,Employed,Melanesian,O+,Often
+Tonnie,Meineken,21,Male,Milevsko,Divorced,Retired,Nicaraguan,AB+,Daily
+Brad,Phillott,29,Male,Longquan,Divorced,Employed,Malaysian,AB+,Daily
+Helaina,Omand,76,Female,Liwu,Married,Employed,Filipino,O-,Once
+Reynold,Bilbie,53,Male,Ånge,Married,Employed,Indonesian,B+,Never
+Carmelita,Comley,70,Female,Fuquan,Married,Retired,Delaware,O+,Daily
+Modestia,Schlagh,46,Genderfluid,Hetang,Single,Retired,Asian,B+,Seldom
+Rodi,Dadge,43,Female,Kafir Yasif,Married,Retired,Costa Rican,A-,Yearly
+Regan,Doonican,24,Male,Ilha Solteira,Married,Retired,Latin American Indian,O-,Yearly
+Ronalda,Venus,46,Female,Naukšēni,Single,Employed,American Indian,A+,Monthly
+Beatrisa,Chestnutt,33,Female,Bettendorf,Divorced,Employed,Pakistani,A+,Once
+Chalmers,Bunten,22,Male,Sidem,Married,Retired,Yaqui,A-,Monthly
+Jaime,Sivyer,29,Male,Binitinan,Divorced,Retired,Creek,O+,Often
+Jobye,Tolwood,19,Genderfluid,Reims,Single,Unemployed,Puerto Rican,B+,Daily
+Michaelina,Harling,84,Female,Jeleuk,Married,Unemployed,Chamorro,A+,Monthly
+Adrian,Askwith,33,Male,Duqiao,Divorced,Unemployed,Sri Lankan,A+,Weekly
+Nannie,Cordrey,50,Female,Dolulolong,Divorced,Retired,Cree,B+,Never
+Thibaut,Hurll,25,Male,Knivsta,Married,Employed,Spaniard,AB-,Once
+Cynthie,Krojn,53,Female,Roa,Single,Retired,Apache,O+,Yearly
+Floria,Piborn,61,Female,Hake,Single,Retired,Dominican (Dominican Republic),O+,Never
+Julie,Lathwell,42,Male,Lokokrangan,Married,Employed,Honduran,A-,Never
+Conny,Brodeur,79,Female,Beauvais,Single,Employed,Kiowa,AB+,Daily
+Honoria,Hankins,64,Female,Olszyna,Married,Retired,Costa Rican,A-,Daily
+Elna,Zelner,61,Female,Junshan,Married,Employed,Argentinian,B+,Monthly
+Denver,Rieger,45,Male,Baylo,Divorced,Unemployed,Mexican,AB+,Weekly
+Sig,O' Meara,35,Male,Talitsa,Divorced,Employed,Aleut,A-,Often
+Lowrance,Sparshott,68,Male,Cartago,Divorced,Unemployed,Korean,AB+,Daily
+Sergeant,Hammer,65,Male,El Peñol,Divorced,Unemployed,White,O-,Daily
+Terencio,Furse,38,Male,Laoliangcang,Divorced,Employed,Colombian,AB+,Never
+Gilligan,Dunks,34,Bigender,Sixi,Divorced,Employed,Dominican (Dominican Republic),AB+,Seldom
+Carlin,Matresse,46,Male,Poctol,Single,Retired,Indonesian,B+,Often
+Fawne,Meadmore,29,Female,Takahata,Single,Retired,Indonesian,B-,Monthly
+Abbott,Piers,64,Non-binary,Huyunxiang,Married,Employed,Sri Lankan,A+,Once
+Mac,Fechnie,69,Male,Syców,Single,Unemployed,Chippewa,AB+,Often
+Livvie,Bartul,77,Female,Turze Pole,Married,Employed,Yuman,O+,Never
+Nathalia,Coddington,75,Female,Sant Cugat Del Valles,Divorced,Retired,Cherokee,A-,Once
+Cecilius,Paice,28,Male,Comagascas,Divorced,Employed,Yuman,B-,Once
+Rudolfo,Maxwaile,26,Male,Mādārīpur,Single,Employed,Central American,AB-,Weekly
+Crichton,Troker,38,Male,Mora,Single,Unemployed,Filipino,AB+,Yearly
+Dorie,Drewe,63,Female,Dasuk,Single,Unemployed,Nicaraguan,A-,Monthly
+Adrea,Kobierra,57,Female,Shangjie,Married,Unemployed,Delaware,O-,Seldom
+Yulma,Hainsworth,67,Male,Göteborg,Single,Employed,Laotian,O+,Yearly
+Kerwin,Rollo,67,Male,San Francisco,Single,Retired,Bangladeshi,A-,Yearly
+Glennie,Birwhistle,31,Non-binary,Nine,Married,Unemployed,Guamanian,B+,Weekly
+Daven,Taynton,37,Male,Chaykovskaya,Married,Unemployed,Asian,O-,Daily
+Pancho,Muscroft,59,Male,Chaltyr,Divorced,Retired,Latin American Indian,AB+,Often
+Joshia,Tithacott,64,Male,Kademangan,Single,Unemployed,Pima,AB-,Seldom
+Patience,Stockin,51,Female,Sukaraja,Divorced,Retired,Tohono O'Odham,AB+,Daily
+Judon,Spire,42,Male,Xunzhong,Single,Unemployed,Salvadoran,A+,Seldom
+Marlane,Lenahan,58,Female,Urzhar,Divorced,Retired,Lumbee,O+,Yearly
+Robena,Capini,58,Female,Abricots,Married,Unemployed,Seminole,AB+,Daily
+Ara,Cosbey,45,Male,Palmar de Varela,Single,Retired,Uruguayan,AB-,Never
+Micky,Madrell,22,Male,Dagohoy,Married,Employed,Pima,A-,Monthly
+Weston,Knightly,65,Male,Luxi,Married,Unemployed,Guatemalan,B-,Never
+Valeda,Harbertson,37,Female,Quiruvilca,Divorced,Unemployed,Cambodian,O-,Never
+Roxie,Olyunin,44,Female,Krajan,Divorced,Unemployed,Eskimo,AB+,Monthly
+Kirby,Gouldbourn,85,Female,Mirkovci,Divorced,Retired,American Indian,O+,Yearly
+Leesa,Pepin,24,Female,Priboj,Married,Unemployed,Apache,B+,Never
+Murry,Limpenny,38,Male,Buenavista,Married,Retired,South American,AB-,Weekly
+Christean,Fumagalli,46,Agender,Jaen,Divorced,Unemployed,Colville,AB-,Never
+Georgette,Askaw,22,Female,Tālīn,Divorced,Employed,Fijian,O-,Never
+Paule,Guerin,78,Female,Pawitan,Single,Employed,Polynesian,AB+,Weekly
+Neils,Ferdinand,74,Male,Esmoriz,Divorced,Retired,Korean,AB-,Yearly
+Read,Surgison,45,Male,Barueri,Married,Employed,Yaqui,B+,Weekly
+Lovell,Faulder,69,Male,Linköping,Single,Employed,Indonesian,AB+,Weekly
+Jeremie,Gibbonson,32,Male,Fujieda,Married,Unemployed,Alaska Native,A-,Monthly
+Gavin,Zorer,18,Male,Krasnystaw,Single,Employed,Samoan,AB-,Once
+Gamaliel,Turner,29,Male,Masuguru,Single,Unemployed,Ottawa,AB-,Yearly
+Frank,Jerg,60,Male,Sindangjawa,Divorced,Retired,Apache,B+,Weekly
+Herta,Tissier,31,Female,Sunan,Single,Retired,Pima,O-,Weekly
+Link,Keddy,39,Male,Changxing,Married,Retired,South American,A-,Weekly
+Linette,Rann,75,Genderqueer,Duntou,Married,Unemployed,Navajo,A+,Seldom
+Leicester,Thackham,49,Male,Inicbulan,Single,Unemployed,Polynesian,B-,Once
+Pepito,Hurlin,64,Male,Pervomays’k,Married,Unemployed,Spaniard,O+,Monthly
+Gael,Wathall,83,Female,Chitagá,Divorced,Unemployed,Crow,B-,Weekly
+Arty,Turbefield,27,Male,Infantas,Married,Employed,Apache,B-,Daily
+Pam,Bonnick,54,Female,Baohe,Married,Unemployed,Aleut,A-,Daily
+Marybeth,Arlidge,18,Female,Tayum,Divorced,Employed,Vietnamese,A+,Never
+Gerhardt,Mayor,81,Male,Vyškov,Divorced,Unemployed,Argentinian,AB+,Weekly
+Elvera,Robb,29,Female,Dalupaon,Married,Employed,Kiowa,AB+,Once
+Warner,Klisch,54,Male,Luotaping,Single,Unemployed,Pakistani,A+,Often
+Taylor,Gladdor,24,Male,Crespo,Married,Employed,Colombian,O+,Seldom
+Ashien,Gillum,64,Female,Huanglin,Divorced,Employed,Tongan,B+,Never

@@ -40,17 +40,8 @@ if ($_SERVER["REQUEST_METHOD"] == "POST"){
     <title>Submission Received - Vintage Vibes</title>
     <link rel="stylesheet" href="vintage-forms.css">
 </head>
-<body<?php echo isset($bg_image) ? ' class="with-bg-image" style="background-image: url(\'' . htmlspecialchars($bg_image) . '\');"' : ''; ?>>
 
-    <!-- Animated background particles -->
-    <div class="bg-animation">
-        <div class="particle"></div>
-        <div class="particle"></div>
-        <div class="particle"></div>
-        <div class="particle"></div>
-        <div class="particle"></div>
-        <div class="particle"></div>
-    </div>
+<body <?php echo isset($bg_image) ? ' class="with-bg-image" style="background-image: url(\'' . htmlspecialchars($bg_image) . '\');"' : ''; ?>>
 
     <div class="data-display">
         <h1 class="glitch">Thank You!</h1>
@@ -58,17 +49,19 @@ if ($_SERVER["REQUEST_METHOD"] == "POST"){
         <?php if (isset($name) && isset($music)): ?>
         <div class="message success">
             <h2>Hi, <?php echo htmlspecialchars($name); ?>!</h2>
-            <p><strong>Let's vibe to your beloved: <?php echo htmlspecialchars($music); ?> music</strong></p>
+            <p><strong>Let's vibe to your : <?php echo htmlspecialchars($music); ?> music</strong></p>
         </div>
 
         <?php if ($music == "rock"): ?>
         <div class="audio-indicator">
             🎸 Rock music is now playing! 🎸
         </div>
+
         <?php elseif ($music == "r&b"): ?>
         <div class="audio-indicator">
             🎵 R&B vibes are flowing! 🎵
         </div>
+        
         <?php endif; ?>
 
         <?php endif; ?>
